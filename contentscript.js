@@ -507,7 +507,6 @@ $(document).mousemove(function (e) {
     const mousemove_without_noise = new $.Event('mousemove_without_noise');
     mousemove_without_noise.clientX = e.clientX;
     mousemove_without_noise.clientY = e.clientY;
-    console.log('mousemove');
 
     $(document).trigger(mousemove_without_noise);
   }
